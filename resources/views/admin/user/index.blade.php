@@ -32,7 +32,16 @@
                                 <td>{{ $item->id }}</td>
                                 <td>{{ $item->name }}</td>
                                 <td>{{ $item->email }}</td>
-                                <td>{{ $item->role_as == '1' ? 'Admin' : 'User' }}</td>
+                                {{-- <td>{{ $item->role_as == '1' ? 'Admin' : 'User' }}</td> --}}
+                                <td>
+                                    @if ($item->role_as == '1')
+                                        {{ 'Admin' }}
+                                    @elseif ($item->role_as == '0')
+                                        {{ 'User' }}
+                                    @else
+                                        {{ 'Blogger' }}
+                                    @endif
+                                </td>
                                 <td>
                                     <a href="{{ url('admin/user/' . $item->id) }}" class="btn btn-success">Edit</a>
                                 </td>
