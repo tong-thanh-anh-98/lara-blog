@@ -16,7 +16,8 @@
             </div>
             <div class="card-body">
 
-                <form action="{{ url('admin/update-category/' . $category->id) }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ url('admin/update-category/' . $category->id) }}" method="POST"
+                    enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
 
@@ -63,9 +64,10 @@
                             <label for="">Status</label>
                             <input type="checkbox" name="status" {{ $category->status == '1' ? 'checked' : '' }} />
                         </div>
-                        <div class="col-md-6">
-                            <button type="submit" class="btn btn-primary">Update Category</button>
-                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary float-end">Update Category</button>
                     </div>
 
                 </form>

@@ -74,9 +74,12 @@
                             <label for="">Status</label>
                             <input type="checkbox" name="status">
                         </div>
-                        <div class="col-md-6">
-                            <button type="submit" class="btn btn-primary float-end">Save Post</button>
-                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary float-end">Save Post</button>
+                    </div>
+                    
                 </form>
 
             </div>

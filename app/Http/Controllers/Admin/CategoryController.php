@@ -29,7 +29,7 @@ class CategoryController extends Controller
 
         $category = new Category;
         $category->name = $data['name'];
-        $category->slug = $data['slug'];
+        $category->slug = Str::slug($request->slug);
         $category->description = $data['description'];
 
         if ($request->hasfile('image')) {
@@ -64,7 +64,7 @@ class CategoryController extends Controller
 
         $category =Category::find($category_id);
         $category->name = $data['name'];
-        $category->slug = $data['slug'];
+        $category->slug = Str::slug($request->slug);
         $category->description = $data['description'];
 
         $destination = 'uploads/category/'.$category->image;
