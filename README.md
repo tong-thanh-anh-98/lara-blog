@@ -11,3 +11,4 @@
 + Panel - 10: How to make custom user role and edit user role in laravel
 + Panel - 11: Integrate datatable in laravel | How to make search box & pagination in laravel
 + Panel - 12: How to generate slug in laravel 8 | how to create slug or url in laravel
++ 
