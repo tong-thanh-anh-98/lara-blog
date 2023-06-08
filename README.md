@@ -7,3 +7,5 @@
 + Panel - 6: How to Add Posts with Form Request using Eloquent and Fetch data in Laravel
 + Panel - 7: How to edit & update post data with Form Request & delete post in laravel
 + Panel - 8: How to integrate Summernote JS Editor for Post description in laravel
++ Panel - 9: How to fetch all registered Users data in laravel
++ Panel - 10: How to make custom user role and edit user role in laravel
