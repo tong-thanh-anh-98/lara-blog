@@ -68,9 +68,10 @@
                             <label for="">Status</label>
                             <input type="checkbox" name="status">
                         </div>
-                        <div class="col-md-6">
-                            <button type="submit" class="btn btn-primary">Save Category</button>
-                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary float-end">Save Category</button>
                     </div>
 
                 </form>

@@ -80,9 +80,12 @@
                             <label for="">Status</label>
                             <input type="checkbox" name="status" {{ $post->status == '1' ? 'checked' : '' }}>
                         </div>
-                        <div class="col-md-6">
-                            <button type="submit" class="btn btn-primary float-end">Update Post</button>
-                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-primary float-end">Update Post</button>
+                    </div>
+
                 </form>
 
             </div>

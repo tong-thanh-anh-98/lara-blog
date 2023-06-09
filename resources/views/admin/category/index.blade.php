@@ -18,7 +18,7 @@
                     <div class="alert alert-success">{{ session('message') }}</div>
                 @endif
 
-                <table class="table table-bordered">
+                <table id="myDataTable" class="table table-bordered">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -35,7 +35,8 @@
                                 <td>{{ $item->id }}</td>
                                 <td>{{ $item->name }}</td>
                                 <td>
-                                    <img src="{{ asset('/uploads/category/' . $item->image) }}" width="50px" height="50px" />
+                                    <img src="{{ asset('/uploads/category/' . $item->image) }}" width="50px"
+                                        height="50px" />
                                 </td>
                                 <td>{{ $item->status == '1' ? 'Hidden' : 'Shown' }}</td>
                                 <td>
