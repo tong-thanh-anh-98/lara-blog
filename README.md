@@ -13,3 +13,4 @@
 + Panel - 12: How to generate slug in laravel 8 | how to create slug or url in laravel
 + Panel - 13: How to Set Current Navbar and Sidebar nav link active in laravel
 + Panel - 14: How to setup frontend home page & make Navbar using bootstrap 5 in laravel
++ Panel - 15: View all Posts by Category in Laravel 8 and Fetch Category data in Navbar Link
