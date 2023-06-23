@@ -14,3 +14,4 @@
 + Panel - 13: How to Set Current Navbar and Sidebar nav link active in laravel
 + Panel - 14: How to setup frontend home page & make Navbar using bootstrap 5 in laravel
 + Panel - 15: View all Posts by Category in Laravel 8 and Fetch Category data in Navbar Link
++ Panel - 16: How to add pagination in laravel 8 | make pagination for posts in laravel
