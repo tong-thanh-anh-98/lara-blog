@@ -15,3 +15,5 @@
 + Panel - 14: How to setup frontend home page & make Navbar using bootstrap 5 in laravel
 + Panel - 15: View all Posts by Category in Laravel 8 and Fetch Category data in Navbar Link
 + Panel - 16: How to add pagination in laravel 8 | make pagination for posts in laravel
++ Panel - 17: View Post by slug in Laravel 8 and Design Post View using Bootstrap 5
++ Panel - 18: How to add Meta Tags in laravel 8 | Setup SEO Tags title, description, keyword
