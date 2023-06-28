@@ -1,6 +1,10 @@
 @extends('layouts.app')
 
-@section('title', "$category->meta_title")
+@section('title', "Programming Language")
+
+@section('meta_description', "Programming Language")
+
+@section('meta_keyword', "Programming Language")
 
 @section('content')
 
